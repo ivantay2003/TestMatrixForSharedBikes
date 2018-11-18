@@ -1,0 +1,39 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
+<style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s0{border-right: none;background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-Calibri',Arial;font-size:12pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}</style><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr"></th><th id="1915806023C0" style="width:100px" class="column-headers-background">A</th><th id="1915806023C1" style="width:3043px" class="column-headers-background">B</th></tr></thead><tbody><tr style='height:20px;'><th id="1915806023R0" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">1</div></th><td></td><td></td></tr><tr style='height:20px;'><th id="1915806023R1" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">2</div></th><td></td><td></td></tr><tr style='height:20px;'><th id="1915806023R2" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">3</div></th><td></td><td></td></tr><tr style='height:20px;'><th id="1915806023R3" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">4</div></th><td></td><td class="s0 softmerge" dir="ltr"><div class="softmerge-inner" style="width: 6303px; left: -1px;"><span style="font-size:12pt;font-family:Calibri,Arial;font-weight:400;color:#000000;">Test Planning:<br> Please design a matrix (Ex. devices, Os) for testing our mobile app for iOS and Android. Given that you won’t ever be able to test on every combination, please include an indication of priority in the matrix and a description of how you would test for a large release versus a small release.<br> Testing cases for ride flow:<br> Please install our app on iOS or Android (can search for Ride Beam Scooters). Once you locate a scooter, please use the app as a user and take a ride. Please write test cases for the ride flow (start, during and end of trip). *It may be hard to find one of our scooters until mid-November because we are just starting to roll them out. You’re welcome to come by our office at 15 Beach Road to test the ride flow there. Please email sean@ridebeam.com to schedule a time to come by.</span></div></td></tr></tbody></table></div>
+<script type='text/javascript' nonce='VUnh6T/3Csxyfbx+UnOMuFsfIgU'>
+function posObj(sheet, id, row, col, x, y) {
+  var rtl = false;
+  var sheetElement = document.getElementById(sheet);
+  if (!sheetElement) {
+    sheetElement = document.getElementById(sheet + '-grid-container');
+  }
+  if (sheetElement) {
+    rtl = sheetElement.getAttribute('dir') == 'rtl';
+  }
+  var r = document.getElementById(sheet+'R'+row);
+  var c = document.getElementById(sheet+'C'+col);
+  if (r && c) {
+    var objElement = document.getElementById(id);
+    var s = objElement.style;
+    var t = y;
+    while (r && r != sheetElement) {
+      t += r.offsetTop;
+      r = r.offsetParent;
+    }
+    var offsetX = x;
+    while (c && c != sheetElement) {
+      offsetX += c.offsetLeft;
+      c = c.offsetParent;
+    }
+    if (rtl) {
+      offsetX -= objElement.offsetWidth;
+    }
+    s.left = offsetX + 'px';
+    s.top = t + 'px';
+    s.display = 'block';
+    s.border = '1px solid #000000';
+  }
+};
+function posObjs() {
+};
+posObjs();</script>
